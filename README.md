@@ -1,17 +1,17 @@
-# 🦟 Monitor de Arboviroses: Inteligência de Dados em Saúde
+# Monitor de Arboviroses: Inteligência de Dados em Saúde
 
 Este projeto é uma ferramenta de **Data Intelligence** desenvolvida para monitorar e comparar a incidência de Dengue, Zika e Chikungunya em Barbalha-CE. O sistema automatiza a coleta de dados epidemiológicos reais e gera insights automáticos sobre tendências e riscos climáticos.
 
 ---
 
-## 📋 Visão Geral do Dashboard
+## Visão Geral do Dashboard
 Abaixo, a interface do painel interativo desenvolvido com Streamlit:
 
 ![Interface do Monitor de Arboviroses](assets/dashboard.png)
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 O objetivo é transformar dados brutos da API **InfoDengue (Fiocruz)** em decisões estratégicas. O painel foca na análise de sazonalidade e na correlação entre fatores climáticos (temperatura/umidade) e o aumento de casos notificados.
 
 ### Principais Funcionalidades:
@@ -22,7 +22,7 @@ O objetivo é transformar dados brutos da API **InfoDengue (Fiocruz)** em decis�
 
 ---
 
-## 🛠️ Tecnologias e Habilidades
+## Tecnologias e Habilidades
 * **Python**: Linguagem base para automação e análise.
 * **Pandas**: Manipulação, limpeza e consolidação de múltiplos datasets (Engenharia de Dados).
 * **Streamlit**: Framework para desenvolvimento do dashboard interativo.
@@ -31,7 +31,7 @@ O objetivo é transformar dados brutos da API **InfoDengue (Fiocruz)** em decis�
 
 ---
 
-## 📊 Estrutura de Arquivos
+## Estrutura de Arquivos
 * `src/coleta_dados.py`: Script de integração com a API da Fiocruz.
 * `src/app.py`: Código fonte do dashboard interativo.
 * `data/`: Pasta local onde os arquivos CSV são armazenados após a coleta.
