@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Monitor de Arboviroses - Insights", layout="wide")
 
-st.title("🦟 Inteligência de Dados: Arboviroses em Barbalha")
+st.title("Inteligência de Dados: Arboviroses em Barbalha")
 st.markdown("Monitoramento comparativo com geração automática de insights.")
 
 @st.cache_data
@@ -23,7 +23,7 @@ try:
     df_completo = carregar_e_consolidar()
 
     # --- SEÇÃO DE INSIGHTS AUTOMÁTICOS ---
-    st.subheader("💡 Insights Automáticos (Últimos 30 dias)")
+    st.subheader("Insights Automáticos (Últimos 30 dias)")
     
     # Cálculo de variação
     ultima_data = df_completo['data'].max()
